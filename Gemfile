@@ -54,6 +54,12 @@ gem 'octokit', '~> 5.0'
 # Listen for events from Smee.io (webhook proxy URL)
 gem 'smee', '~> 0.0.2'
 
+# Generate JSON Web Tokens to authenticate as an app
+gem 'jwt'
+
+# Provide SSL, TLS and general purpose cryptography
+gem 'openssl'
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
